@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Store</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <ion-icon name="grid-outline"></ion-icon>
+            </label>
+
+            <label class="logo">Sumfood❤️</label>
+
+            <ul>
+                <li><a href="#hero-section" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#app">Download App</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Hero Section -->
+    <div class="section flex" id="hero-section">
+        <div class="text">
+            <h1 class="primary">
+                Welcome to <span class="primary-span">SumFood</span></span>
+            </h1>
+
+            <p class="tertiary">
+                Chef Pierre Thiam not only creates delicious food skills kitchen others. He has catered huge events that have involved the President and big name celebrities too!
+            </p>
+
+            <!-- <a href="#menu" class="btn">Explore Menu</a> -->
+            <button class="btn">
+                <span class="text-container">
+                  <span class="text">Explore Menu</span>
+                </span>
+              </button>
+              
+        </div>
+        <div class="visual">
+            <img src="./top-view-fried-potatoes-with-seasonings-bread-loafs-different-vegetables-dark-desk.jpg" alt="" />
+        </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <section class="section-meals">
+        <div class="txt">
+            <h1>Our Product</h1>
+        </div>
+        <div class="container grid grid--3-cols margin-right-md">
+            <div class="meal">
+                <img src="https://imgs.search.brave.com/uuKJWatZmW9-L-qojm2nui5xYJTtnpPejfHJO5UnOww/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA0LzUzLzQ4LzUw/LzM2MF9GXzQ1MzQ4/NTA5OF8xQzVtRVBN/VTQ5WUlqMWozcUVV/aGU5V1RKM09BZlh1/UC5qcGc"
+                    class="meal-img" alt="Japanese Gyozas" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegetarian">Vegetarian</span>
+                    </div>
+                    <p class="meal-title">Momos with Dips</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>650</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>74</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.9</strong> rating
+                                (537)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="https://imgs.search.brave.com/HRKiiVuAldisPPS0e0UdQ6TLqY1oH4FYxyClRddywcI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTg0/OTQ2NzAxL3Bob3Rv/L3BpenphLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz05N3Jj/MFZJaS1zM21uNHhl/NHhEeTlTLVhKX09o/Ym45MlhhRU1haUlE/X2VZPQ"
+                    class="meal-img" alt="Avocado Salad" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">Vegetarian</span>
+                        <!-- <span class="tag tag--paleo">Paleo</span> -->
+                    </div>
+                    <p class="meal-title">Pizza with melted cheese</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>400</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>92</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.8</strong> rating
+                                (441)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="https://imgs.search.brave.com/dDLN-Ggrs3AqM3gl0pgPXhDX0kEPZOdO02jXRLkRpzY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzAzLzU3LzA2/LzM2MF9GXzMwMzU3/MDYzNl94ckNyVDhB/SU9Za0M5Y08xeFBY/RXBvOUR3b2I1bWF5/Wi5qcGc"
+                    class="meal-img" alt="Japanese Gyozas" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">Vegetarian</span>
+                    </div>
+                    <p class="meal-title">Hamburger with french fries</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>450</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>86</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.4</strong> rating
+                                (349)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- How It Works -->
+    <div class="section" id="how-it-works">
+        <div class="txt">
+            <h1>How It's Work</h1>
+        </div>
+
+        <div class="container flex">
+            <div class="box">
+                <h3>Easy Order</h3>
+                <ion-icon name="timer-outline"></ion-icon>
+                <p>
+                    Order method is so easy and like basic move and confrime order  
+                    order like a convencing kids?
+                </p>
+            </div>
+
+            <div class="box active">
+                <h3>Best Quality</h3>
+                <ion-icon style="color: black;" name="trophy-outline"></ion-icon>
+                <p>
+                    Quality is best and don't compromize in quality 
+                    we are the king of food and haizine.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Fast Delivery</h3>
+                <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                <p>
+                    Delivery is simpal way but i am give you fast delivery service so fast resive your and eat fast.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End How It Works -->
+
+    <!-- About -->
+    <div class="section" id="about">
+        <div class="container flex">
+            <div class="visual">
+                <img src="https://img.freepik.com/free-photo/fresh-pasta-with-hearty-bolognese-parmesan-cheese-generated-by-ai_188544-9469.jpg?t=st=1709179239~exp=1709182839~hmac=341c809d23fbd1ac52cfdb7f982e6bfc937136471669914a0a156c65f9cf6274&w=1060" alt="" />
+            </div>
+            <div class="text">
+                <div class="secondary">About Our Restaurant</div>
+                <h2 class="primary">200+</h2>
+
+                <h3 class="tertiary">Our Delicious Food</h3>
+
+                <p>
+                    The Supernatural brand features an exciting, plant-based way to get creative in the kitchen.
+                    All of their powder products and recipes are vibrant in color, better for you and fun to use in the kitchen!
+                </p>
+
+                <!-- <a href="#menu" class="btn">Explore Menu</a> -->
+                <button class="btn">
+                    <span class="text-container">
+                      <span class="text">Explore Menu</span>
+                    </span>
+                  </button>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Restaurant Menu -->
+    <div class="section" id="menu">
+        <div class="container-menu">
+            <ul class="category">
+                <li class="active">All</li>
+                <li>Starters</li>
+                <li> Main Coures</li>
+                <li>Pizza</li>
+                <li>Burger</li>
+                <li>Pasta</li>
+            </ul>
+
+            <div class="container">
+                <div class="restaurant-menu">
+                    <div class="menu-item">
+                        <img src="https://imgs.search.brave.com/qV_G9VbiN7AHa14GF-b9YRM5qzE3qDa9WAcoPYajUHI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wYW5k/YXJldmlld3ouY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE5/LzAzL2Rob2tsYS1z/bmFjay5wbmc"
+                            alt="" />
+
+                        <div class="title">Femous Gujrati Dhokla</div>
+
+                        <div class="location">Gujrat, India</div>
+
+                        <div class="order flex">
+                            <div class="price">$350.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://imgs.search.brave.com/bG-BecEUxLe974n7Xa8FpxzYPax1uclyMKXHpziCnic/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzQxLzUzLzIy/LzM2MF9GXzU0MTUz/MjI4Nl9JZHNhamVB/eVNua3ZpMDlYNjNm/dnYyNlZad0tmdmd4/RC5qcGc"
+                            alt="" />
+
+                        <div class="title"> Special Panjabi Paneer Makhni</div>
+
+                        <div class="location">Panjab , India</div>
+
+                        <div class="order flex">
+                            <div class="price">₹440.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://imgs.search.brave.com/4A7I70W27qRln13S0wQ8BWTW37OVbu6lsMpsCS_6a2M/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9wbGFpbi1kb3Nh/LWRpc2hfNTc2NjUt/MTQ5MTIuanBnP3Np/emU9NjI2JmV4dD1q/cGc"
+                            alt="" />
+
+                        <div class="title">South Indian Dosa</div>
+
+                        <div class="location">Tamilnadu,India</div>
+
+                        <div class="order flex">
+                            <div class="price">₹390.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://imgs.search.brave.com/_-3TgTbihdJVx5MzSsAtCCKI59ivRQDEepdedTQaM2Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzY2Lzk0Lzc4/LzM2MF9GXzU2Njk0/Nzg2Nl9KeFFjaGpx/N0F5eFVsZDF4bmFU/S1E2NlR2OFNENnVX/QS5qcGc"
+                            alt="" />
+
+                        <div class="title">Pune Femous Pav Bhaji</div>
+
+                        <div class="location">Pune,Maharatra</div>
+
+                        <div class="order flex">
+                            <div class="price">₹590.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://imgs.search.brave.com/hT9drGi5W8lXINjHlEBTXShBVW7h0BkkFxPhNiY5EoM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMx/NDMyOTk0Mi9waG90/by9nb2FsLWdhcHBh/LW9yLXBhbmktcHVy/aS5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9bDZha2lLTWZU/TEU5blI0Vm9uaGlP/WnBaR0RZNGFFamlt/QU4tQlNza0YtQT0"
+                            alt="" />
+
+                        <div class="title">All India Femous Paani Puri</div>
+
+                        <div class="location">India</div>
+
+                        <div class="order flex">
+                            <div class="price">₹270.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://imgs.search.brave.com/ckzsPGbVEA17UfMrBJhQXnZ-lK_TEdPwfHgpMVn9wAE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/Y3JhenltYXNhbGFm/b29kLmNvbS93cC1j/b250ZW50L2ltYWdl/cy9rYWp1LTEuanBn"
+                            alt="" />
+
+                        <div class="title">Femous Khaji katli | Sweet</div>
+
+                        <div class="location">India</div>
+
+                        <div class="order flex">
+                            <div class="price">₹1200kg</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                    
+
+                    <div class="menu-item">
+                        <img src="https://imgs.search.brave.com/CncD7vp22LE0QKF5arHXZMKA2w0cDTtDZELhVVFrO1M/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9ndWxhYi1qYW11/bl81NzY2NS02NjM0/LmpwZz9zaXplPTYy/NiZleHQ9anBn"
+                            alt="" />
+
+                        <div class="title">Kolkata Gulab Jamun | Dessert </div>
+
+                        <div class="location">Kolkata</div>
+
+                        <div class="order flex">
+                            <div class="price">₹250.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://imgs.search.brave.com/bXc0WAUDv67swB8_UIeNjhM7InX0skFV5I74SlMYVDY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjY3/MDAxOTMyL3Bob3Rv/L2luZGlhbi1zd2Vl/dC1qYWxlYmkuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVNu/cVJtX0plbEhrbm5M/SEZUT1FOakhaY3ZM/TGtzZi1iZ01LQnpY/d3JKNWs9"
+                            alt="" />
+
+                        <div class="title">Special Indori Poha </div>
+
+                        <div class="location">In INDORE</div>
+
+                        <div class="order flex">
+                            <div class="price">₹400.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Restaurant Menu -->
+
+    <!-- FAQ -->
+    <div class="section" id="faq">
+        <h2 class="secondary">Frequently Asked Questions</h2>
+
+        <div class="faq">
+            <details>
+                <summary>I got wrong food what shoud I do?</summary>
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Asperiores amet sunt at?
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>I got wrong food what shoud I do?</summary>
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Asperiores amet sunt at?
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>I got wrong food what shoud I do?</summary>
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Asperiores amet sunt at?
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>I got wrong food what shoud I do?</summary>
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Asperiores amet sunt at?
+                    </p>
+                </div>
+            </details>
+        </div>
+    </div>
+    <!-- End FAQ -->
+
+    <!-- App -->
+    <div class="section" id="app">
+        <div class="container flex">
+            <div class="app-photo">
+                <img width="500px" src="pngegg.png" alt="" />
+            </div>
+
+            <div class="text">
+                <h2 class="secondary">Download The Sumfood App</h2>
+                <p>
+                   Address Sumfood❤️ near in  seoni Bahubali chowk said in SBI bank.
+                   Visit Sumfood and rate my Bits  and give me best feedback to improve my services. " DOWNLOAD SUMFOOD MOBAIL APP NOW"
+                </p>
+
+                <div class="download flex">
+                    <div class="app-store">
+                        <ion-icon name="logo-google-playstore"></ion-icon>
+                        <p>
+                            GET IT ON <br />
+                            <span>Google Play</span>
+                        </p>
+                    </div>
+
+                    <div class="app-store">
+                        <ion-icon name="logo-apple"></ion-icon>
+                        <p>
+                            Donload on the <br />
+                            <span>App Store</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End App -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container flex">
+            <div class="footer-about">
+                <h2>About</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                    aspernatur sit deleniti enim voluptas voluptatum incidunt rerum,
+                    exercitationem voluptate nemo quo impedit ad perspiciatis tempore
+                    nulla dolore fugit, fuga eos.
+                </p>
+            </div>
+
+            <div class="footer-category">
+                <h2>Our Menu</h2>
+
+                <ul>
+                    <li>Daal Bati</li>
+                    <li>Paneer</li>
+                    <li>Pizza</li>
+                    <li>Burger</li>
+                    <li>Pasta</li>
+                </ul>
+            </div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Menu</li>
+                    <li>Order</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+
+            <div class="get-in-touch">
+                <h2>Get in touch</h2>
+                <ul>
+                    <li>Account</li>
+                    <li>Support Center</li>
+                    <li>Feedback</li>
+                    <li>Suggession</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; Code By AYUSH❤️</p>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Ion Icons Js -->
+   
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
